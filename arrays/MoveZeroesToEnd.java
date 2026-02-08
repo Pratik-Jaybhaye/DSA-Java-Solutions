@@ -34,6 +34,7 @@ public class MoveZeroesToEnd {
         System.out.println("Original: " + Arrays.toString(arr));
         MoveZeroesToEnd.setZeroToEnd(arr);
         System.out.println("After moving zeros: " + Arrays.toString(arr));
+        
     }
     
 }

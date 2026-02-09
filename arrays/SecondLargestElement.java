@@ -10,9 +10,9 @@ logic:
 */
 public class SecondLargestElement {
     public static int secondLargest(int arr[]){
-        int n=arr.length;
-        int largest=-1;
-        int secondLargest=-1;
+       
+        int largest=Integer.MIN_VALUE;
+        int secondLargest=Integer.MIN_VALUE;
 
         for(int i=0;i<arr.length;i++){
             if(arr[i]>largest){
@@ -26,7 +26,7 @@ public class SecondLargestElement {
             return secondLargest;
     }
     public static void main(String[] args) {
-        int arr[]={1,2,3,4,5};
+        int arr[]={0,-2,-3,-4,-5};
           
         System.out.println(SecondLargestElement.secondLargest(arr) );
     }
